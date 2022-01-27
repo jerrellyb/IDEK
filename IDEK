@@ -1,0 +1,57 @@
+ .ci/scripts/clang/docker.sh
+  .ci/scripts/clang/exec.sh
+  .ci/scripts/clang/upload.sh
+  .ci/scripts/common/post-upload.sh
+  .ci/scripts/common/pre-upload.sh
+  .ci/scripts/format/docker.sh
+  .ci/scripts/format/exec.sh
+  .ci/scripts/format/script.sh
+  .ci/scripts/linux/docker.sh
+  .ci/scripts/linux/exec.sh
+  .ci/scripts/linux/upload.sh
+  .ci/scripts/merge/apply-patches-by-label-private.py
+  .ci/scripts/merge/apply-patches-by-label.py
+  .ci/scripts/merge/check-label-presence.py
+  .ci/scripts/merge/yuzubot-git-config.sh
+  .ci/scripts/transifex/docker.sh
+  .ci/scripts/windows/docker.sh
+  .ci/scripts/windows/exec.sh
+  .ci/scripts/windows/scan_dll.py
+  .ci/scripts/windows/upload.ps1
+  .ci/scripts/windows/upload.sh
+  .ci/templates/build-mock.yml
+  .ci/templates/build-msvc.yml
+  .ci/templates/build-single.yml
+  .ci/templates/build-standard.yml
+  .ci/templates/build-testing.yml
+  .ci/templates/format-check.yml
+  .ci/templates/merge-private.yml
+  .ci/templates/merge.yml
+  .ci/templates/mergebot-private.yml
+  .ci/templates/mergebot.yml
+  .ci/templates/release-download.yml
+  .ci/templates/release-github.yml
+  .ci/templates/release-private-tag.yml
+  .ci/templates/release-universal.yml
+  .ci/templates/retrieve-artifact-source.yml
+  .ci/templates/retrieve-master-source.yml
+  .ci/templates/sync-source.yml
+  .ci/yuzu-mainline-step1.yml
+  .ci/yuzu-mainline-step2.yml
+  .ci/yuzu-patreon-step1.yml
+  .ci/yuzu-patreon-step2.yml
+  .ci/yuzu-repo-sync.yml
+  .ci/yuzu-verify.yml
+  .gitattributes
+  .github/FUNDING.yml
+  .github/ISSUE_TEMPLATE/bug-report-feature-request.md
+  .github/ISSUE_TEMPLATE/config.yml
+  .github/workflows/ci.yml
+  .gitignore
+  .gitmodules
+  .lgtm.yml
+  CMakeLists.txt
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
